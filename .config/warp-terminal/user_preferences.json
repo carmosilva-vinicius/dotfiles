@@ -1,0 +1,24 @@
+{
+  "prefs": {
+    "AIAssistantRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-08-13T19:27:28.956527771Z\"}",
+    "ShowWarningBeforeQuitting": "false",
+    "ExperimentId": "2eb61f45-f685-43c9-915e-d7a848ea562d",
+    "AliasExpansionBannerSeen": "true",
+    "FontSize": "16.0",
+    "AIAutoDetectionEnabled": "true",
+    "Theme": "{\"Custom\":{\"name\":\"Catppuccin Mocha\",\"path\":\"/home/vinico/.local/share/warp-terminal/themes/catppuccin_mocha.yml\"}}",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "ChangelogVersions": "{\"v0.2024.07.09.08.01.stable_00\":true}",
+    "CrashReportingEnabled": "true",
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"CreateBlock\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"SplitPane\"}]",
+    "SameLinePromptBlockState": "\"DoNotShow\"",
+    "AutosuggestionAcceptedCount": "2",
+    "NotebookFontSize": "14.0",
+    "AIRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":3,\"next_refresh_time\":\"2024-08-13T19:27:28.956527Z\"}",
+    "HonorPS1": "true",
+    "InputMode": "\"Waterfall\"",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "AgentModeOnboardingBlockShown": "true",
+    "TelemetryEnabled": "true"
+  }
+}
