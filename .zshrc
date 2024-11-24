@@ -107,16 +107,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias c="clear"
 alias ls="eza --icons"
 alias cat="bat --style=auto"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-. ~/.asdf/plugins/dotnet/set-dotnet-env.zsh
+#. ~/.local/share/mise/plugins/dotnet/set-dotnet-env.zsh
 export PATH="$HOME/.dotnet/tools:$PATH"
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
 
 PATH=~/.console-ninja/.bin:$PATH
 
@@ -156,3 +153,5 @@ llama() {
 }
 
 alias config='/usr/bin/git --git-dir=/home/vinico/.cfg/ --work-tree=/home/vinico'
+eval "$(~/.local/bin/mise activate zsh)"
+eval "$(direnv hook zsh)"
